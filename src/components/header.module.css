@@ -1,0 +1,21 @@
+.headerContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  display: flex;
+  min-height: 4vh;
+  flex-direction: column;
+  background: black;
+  z-index: 999;
+  color: rgb(0, 0, 0);
+  box-shadow: 0 0 5px #ccc;
+
+  background-color: var(--color-green);
+  position: absolute;
+  top: 0;
+  left: 0;
+position: fixed;
+
+}

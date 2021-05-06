@@ -1,0 +1,11 @@
+:root {
+  --color-green: rgb(56, 199, 56);
+  transition: background-color 200ms ease 0s;;
+    --color-black: #222;
+    --color-white: #fff;
+    --color-accent: rgb(2, 2, 2);
+    --background-color:#F4F4F4;
+    --text-color: rgb(247, 141, 54);
+    --text-secondary-color: rgb(255, 255, 255);
+    
+  }
