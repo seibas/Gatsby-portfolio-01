@@ -8,10 +8,9 @@ import { Link, graphql } from "gatsby"
 
 
 
-
 <ul>
   {props.data.allMdx.nodes.map(node => (
-    <li key={node.id}>
+    <li class="list" key={node.id}>
       <Link to={node.fields.slug}>{node.frontmatter.title}</Link> (
       {node.frontmatter.date}) - {node.excerpt}
     </li>

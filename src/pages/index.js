@@ -13,7 +13,7 @@ const index = ({ data }) => {
     <Layout>
       
    
-      <h1 style={{ display: `block`, fontSize: `3rem` }}>Takayama recycle</h1>
+      <h1 style={{ display: `block`, fontSize: `3rem` }}>Sebastiano Vitturi</h1>
      
        <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="Nature" />
        <p className= { "natureTitle" }>Welcome to {data.site.siteMetadata.title}!✨</p>

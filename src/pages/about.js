@@ -11,7 +11,7 @@ const about = ({ data }) => {
      
         <Layout>
           
-            <h1>I am about page</h1>
+            <h1>About </h1>
             <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="laptop" />
        <p className= { "laptopTitle" }>Welcome to {data.site.siteMetadata.title}!</p>
         </Layout>

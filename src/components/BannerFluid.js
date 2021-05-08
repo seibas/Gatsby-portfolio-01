@@ -10,10 +10,10 @@ export default styled(Image)`
 display:grid;
 margin-left:auto;
 margin-right:auto;
-max-width: 400px;
+max-width: 800px;
     margin-top: 6rem;
     margin-bottom:4rem;
-    border-radius: 10px;
+
     background-color: rgb(255, 156, 64);
  
 

@@ -16,8 +16,11 @@ html {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-display: flex;
-justify-content: center;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  justify-content: center;
 
 
   font-family: 'IBM Plex Mono', monospace;
@@ -80,9 +83,7 @@ a{
 .change{
   padding: 0.05rem;
 }
-h1{
-  text-align: center;
-}
+
 .natureTitle{
 
 background-color: var(--background-color);
@@ -97,5 +98,39 @@ margin: 0.5rem;
 
 li{
 margin-top: 1.5rem ;
+
+}
+h1{
+  text-align: center;
+  font-weight: 600;
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+  margin-bottom: .25rem;
+  letter-spacing: -.025em;
+}
+
+h3{
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.25rem;
+  line-height: 2.5rem;
+  margin-bottom: .25rem;
+  letter-spacing: -.025em;
+}
+a{
+  font-size: 1.55rem;
+  
+}
+.list-blog{
+  font-size: 1.20rem;
+    line-height: 1.5rem;
+  margin-bottom: .25rem;
+  letter-spacing: -.025em;
+}
+
+.list-blog, ::marker{
+  font-size: 2rem;
+  color: rgb(0, 0, 0);
+  
 
 }
