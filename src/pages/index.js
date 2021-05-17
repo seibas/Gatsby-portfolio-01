@@ -41,7 +41,7 @@ export const query = graphql`
         title
       }
     }
-    file(relativePath: { eq: "images/nature.jpg" }) {
+    file(relativePath: { eq: "images/Leo.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid

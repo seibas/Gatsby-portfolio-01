@@ -12,6 +12,7 @@ const LogoImage = styled.img`
   max-width: 40px;
   margin-top: 20px;
   border-radius: 10px;
+  
 `
 const MenuIcon = styled.button`
   outline: 0;
@@ -150,11 +151,11 @@ export default function Layout({ children }) {
           </MobileMenu>
 
           <nav style={{ marginBottom: `1.5rem` }}>
-            <Link
+            <Link 
               to="/"
-              style={{ textShadow: `none`, backgroundImage: `none` }}
+              style={{ textShadow: `none`, backgroundImage: `none`, color:"black", fontWeight:"bold" }}
             >
-              <LogoImage src={"moustache.png"} alt="logo" />
+              <LogoImage src={"beba32x32.png"} alt="logo" />
             </Link>
             <ul
               className={navStyles.navContainer}

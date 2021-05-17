@@ -56,3 +56,7 @@ font-size: x-large;
 h1 {
   padding: 2rem;
 }
+.logo {
+  font-weight: bold;
+  color: black;
+}
