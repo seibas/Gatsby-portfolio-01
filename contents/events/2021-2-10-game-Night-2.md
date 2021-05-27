@@ -1,5 +1,5 @@
 ---
-date: "2021-2-10"
+date: "2021-02-10"
 title: "Game Night second time"
 category: "game night"
 banner: "./turtle.jpg"

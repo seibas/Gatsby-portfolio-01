@@ -7,7 +7,7 @@
 module.exports = {
 
   siteMetadata: {
-    title: "BeBa",
+    title: "BEBA",
     description: "webSite - in development",
     author: "Sebastiano Vitturi",
     year: 2021,

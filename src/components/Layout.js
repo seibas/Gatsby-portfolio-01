@@ -148,15 +148,15 @@ export default function Layout({ children }) {
               </li>
               </li>
             </ul>
-          </MobileMenu>
+          </MobileMenu> 
+          
+          <Link 
+              to="/">
+           <LogoImage src={"beba32x32.png"} alt="logo" />
+            </Link>
 
           <nav style={{ marginBottom: `1.5rem` }}>
-            <Link 
-              to="/"
-              style={{ textShadow: `none`, backgroundImage: `none`, color:"black", fontWeight:"bold" }}
-            >
-              <LogoImage src={"beba32x32.png"} alt="logo" />
-            </Link>
+           
             <ul
               className={navStyles.navContainer}
               style={{ listStyle: `none`, float: `right` }}
