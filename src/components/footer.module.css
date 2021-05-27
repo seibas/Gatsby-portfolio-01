@@ -11,7 +11,7 @@
   z-index: 999;
   color: rgb(0, 0, 0);
   box-shadow: 0 0 5px #ccc;
-  background-color: #D7D5CF;
+  background-color: #3C3C3B;
 
   top: 100%;
   left: 0;
@@ -20,7 +20,7 @@ position: absolute;
 
 .titleFooter {
     font-size: 3rem;
-    color: rgb(10, 10, 10);
+    color: var(--color-main);
   
 
 }

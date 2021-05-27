@@ -21,9 +21,10 @@
  margin-left: auto;
   list-style: none;
   width: 100%;
-  padding: 0rem 2rem 2rem;
+ position: relative;
+ top:-60px;
   font-size: 2rem;
-
+transition: 1s;
 }
 
 @media (max-width: 1070px) {
@@ -36,7 +37,7 @@
 
 .navContainer a {
   text-transform: uppercase;
-  color: var(--color-black);
+  color: var(--color-title);
   text-decoration: none;
   padding-left: 0.1rem;
   line-height: 1;

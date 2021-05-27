@@ -61,7 +61,7 @@ const MenuIcon = styled.button`
 .secondLine{
   width: 1.5rem;
     height: 0.23rem;
-    background: var( --color-green);
+    background: var(--color-main);
     border-radius: 5px;
     transform-origin: 3px;
     margin: 1px;
