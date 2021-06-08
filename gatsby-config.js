@@ -11,7 +11,7 @@ module.exports = {
     description: "webSite - in development",
     author: "Sebastiano Vitturi",
     year: 2021,
-    image: 'images/nature.jpg'
+    image: 'images/nature.jpg',
   },
 
 

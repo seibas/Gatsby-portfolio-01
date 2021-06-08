@@ -1,5 +1,4 @@
 import React, { useState } from "react"
-
 import Header from "../components/Header"
 import { Link } from "gatsby"
 import Footer from "../components/Footer"
@@ -147,6 +146,7 @@ export default function Layout({ children }) {
                 <Link to="/blog">Blog</Link>
               </li>
               </li>
+              
             </ul>
           </MobileMenu> 
           

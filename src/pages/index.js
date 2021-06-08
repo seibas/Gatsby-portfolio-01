@@ -22,6 +22,7 @@ const index = ({ data }) => {
        <Link 
               to="/">
 <div className= { indexStyles.postCard }>card 1</div></Link>
+
 <div className= { indexStyles.postCard }>card 2</div>
 <div className= { indexStyles.postCard }>card 3</div>
 <div className= { indexStyles.postCard }>card 4</div>
@@ -31,7 +32,6 @@ const index = ({ data }) => {
    </Layout>
   )
 }
-
 
 
 

@@ -141,3 +141,8 @@ margin: 1rem;
 
 padding: 0.5em;
 }
+@media screen and (min-width: 320px) {
+  html {
+    font-size: calc(0.75rem + 2 * ((100vw - 320px) / 680));
+  }
+}
