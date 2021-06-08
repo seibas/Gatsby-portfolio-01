@@ -58,9 +58,7 @@ font-size: x-large;
   flex-grow: 1;
 }
 
-h1 {
-  padding: 2rem;
-}
+
 .logo {
   font-weight: bold;
   color: black;
