@@ -8,7 +8,9 @@ const Header = () => {
 
     return (
         
-        <div className={ headerStyles.headerContainer }>Header
+        <div className={ headerStyles.headerContainer }><pre>📫 157-0063
+        東京都, 世田谷区粕谷3-16-6
+        </pre>
         </div>
     )
 }
