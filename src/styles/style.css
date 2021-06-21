@@ -72,14 +72,8 @@ a{
   color: var(--text-color);
   font-size: 18px;
 }
-.change:hover {
-  color:#08fdd8;
-  font-size: 30px;
 
-}
-.change{
-  padding: 0.05rem;
-}
+
 
 .natureTitle{
 
@@ -106,7 +100,7 @@ h1{
   letter-spacing: -.025em;
 }
 
-h3{
+h3, h4{
   text-align: center;
   font-weight: 600;
   font-size: 1.25rem;
@@ -116,12 +110,12 @@ h3{
 }
 a{
   font-size: 1.55rem;
-  
+  color: var(--link-text)
 }
 
 
 .list-blog, ::marker{
-  font-size: 2rem;
+  font-size: 0rem;
   color: rgb(0, 0, 0);
   
 
@@ -135,9 +129,9 @@ a{
 }
 .list{
 margin: 1rem;
-
 padding: 0.5em;
 }
+
 @media screen and (min-width: 320px) {
   html  {
     font-size: calc(0.76rem + 2 * ((100vw - 320px) / 680));

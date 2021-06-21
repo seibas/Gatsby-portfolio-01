@@ -1,15 +1,11 @@
-
-
 .mainContainer {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
   margin: 3rem auto;
   max-width: 950px;
-
   padding: 0 1rem;
-  color: var( --color-accent);
-
+  color: var(--color-accent);
 }
 
 .navContainer {
@@ -17,23 +13,20 @@
   flex-wrap: wrap;
   -webkit-box-pack: center;
   justify-content: center;
- margin-right: auto;
- margin-left: auto;
+  margin-right: auto;
+  margin-left: auto;
   list-style: none;
   width: 100%;
- position: relative;
- top:-60px;
+  position: relative;
+  top: -60px;
   font-size: 2rem;
-transition: 1s;
 }
 
 @media (max-width: 1070px) {
-  .navContainer { 
-     display: none;
-
+  .navContainer {
+    display: none;
   }
-   }
- 
+}
 
 .navContainer a {
   text-transform: uppercase;
@@ -41,25 +34,25 @@ transition: 1s;
   text-decoration: none;
   padding-left: 0.1rem;
   line-height: 1;
-font-size: x-large;
+  font-size: x-large;
 }
-.navContainer a:hover{
-
-  
-  background-image: linear-gradient(transparent 0%, transparent calc(50% - 9px), rgb(253, 80, 0)calc(50% - 9px), rgb(253, 80, 0)100%);
+.navContainer a:hover {
+  background-image: linear-gradient(
+    transparent 0%,
+    transparent calc(50% - 9px),
+    rgb(253, 80, 0) calc(50% - 9px),
+    rgb(253, 80, 0) 100%
+  );
   transition: all 120ms ease-in-out 0s;
   background-size: 100% 200%;
   background-position: 0px 0px;
 }
 
-
 .articleContainer {
-
   flex-grow: 1;
 }
 
-
 .logo {
   font-weight: bold;
-  color: black;
+  color: rgb(201, 31, 31);
 }

@@ -1,42 +1,42 @@
-.natureTitle{
+.natureTitle {
   font-size: 3rem;
 }
 
 
 
 
-.cardContainer{
+.cardContainer {
   display: grid;
   margin: 3rem;
-  max-width: 500px;
-  grid-template-columns: repeat(auto-fill, minmax(10rem, 1fr));
+  
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
   gap: 10px;
   margin-right: auto;
   margin-left: auto;
+
+}
+
+.postCard {
+
  
-  }
-  
-  .postCard {
-   display: flex;
-
-   justify-content: center;
-align-items: center;
- min-height: 10rem;
-
-  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  min-height: 10rem;
 
   box-shadow: 0 0 5px #ccc;
   border: 1px solid rgb(0, 0, 0);
-   background-image: url("/src/images/nature.jpg");
+  background-color: aqua;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+}
+
+@media (max-width: 575px) {
+
+  main {
+    grid-template-columns: 1fr;
   }
-  
-  @media (max-width: 575px) {
-  
-  main{
-      grid-template-columns: 1fr;
-  }
-  }
-  
+}

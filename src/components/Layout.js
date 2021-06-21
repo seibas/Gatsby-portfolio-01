@@ -75,17 +75,19 @@ const MenuIcon = styled.button`
 
 
 const MobileMenu = styled.nav`
+
   background-color: #eee;
   height: 100vh;
   width: 100%;
   z-index: 5;
+  overflow-x: hidden; /* Disable horizontal scroll */
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   flex-direction: column;
   align-items: center;
   text-align: center;
-  position: absolute;
+  position: fixed;
   top: 0;
   right: 0;
   transform: ${({ nav }) => (nav ? "translateX(0)" : "translateX(100%)")};
@@ -101,6 +103,9 @@ const MobileMenu = styled.nav`
     text-decoration: none;
     font-size: 3rem;
     color:  rgb(247, 141, 54);
+  }
+  a:hover, a:focus {
+    color:green;
   }
 
   @media (min-width: 1070px) {
@@ -148,6 +153,7 @@ export default function Layout({ children }) {
               </li>
               
             </ul>
+            
           </MobileMenu> 
           
           <Link 

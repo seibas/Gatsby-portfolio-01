@@ -5,7 +5,7 @@ category: "Javascript"
 banner: "./panorama.jpg"
 ---
 
-**FUNCTION**
+
 
 
 A JavaScript function is a block of code designed to perform a particular task.

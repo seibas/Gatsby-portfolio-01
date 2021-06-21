@@ -8,7 +8,7 @@ module.exports = {
 
   siteMetadata: {
     title: "BEBA",
-    description: "webSite - in development",
+    description: " Beba © 2020 — 2021",
     author: "Sebastiano Vitturi",
     year: 2021,
     image: 'images/nature.jpg',
