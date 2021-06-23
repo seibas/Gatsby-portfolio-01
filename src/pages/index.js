@@ -12,7 +12,7 @@ const index = ({ data }) => {
     
     <Layout>
       
-    <h1 style={{ display: `block`, fontSize: `3rem`, lineHeight: '3.5rem' }}>WELCOME TO CODING BLOG BEBA<span>✨</span></h1>
+    <h1 style={{ display: `block`, fontSize: `2.8rem`, lineHeight: '3.5rem' }}>WELCOME TO CODING BLOG BEBA<span>✨</span></h1>
 
      
        <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="Nature" />     
