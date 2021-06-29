@@ -18,8 +18,8 @@ const MenuIcon = styled.button`
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 3.5rem;
+  height: 3.5rem;
   background-image: linear-gradient(
     to right bottom,
     #ffffff,
