@@ -7,12 +7,7 @@ import styled from "styled-components"
 import navStyles from "../components/layout.module.css"
 import SEO from "./SEO"
 
-const LogoImage = styled.img`
-  max-width: 40px;
-  margin-top: 20px;
-  border-radius: 10px;
-  
-`
+
 const MenuIcon = styled.button`
   outline: 0;
   position: fixed;
@@ -33,7 +28,7 @@ const MenuIcon = styled.button`
     #d5d5d5,
     #c7c7c7
   );
-  border: 0;
+  border: 2px solid black;
   border-radius: 50%;
   animation: menuButton 1s ease;
   box-shadow: 0 8px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
@@ -156,10 +151,7 @@ export default function Layout({ children }) {
             
           </MobileMenu> 
           
-          <Link 
-              to="/">
-           <LogoImage src={"beba32x32.png"} alt="logo" />
-            </Link>
+      
 
           <nav style={{ marginBottom: `1.5rem` }}>
            

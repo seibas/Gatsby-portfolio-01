@@ -12,22 +12,22 @@ const index = ({ data }) => {
     
     <Layout>
       
-    <h1 style={{ display: `block`, fontSize: `2.6rem`, lineHeight: '3.5rem' }}>WELCOME TO CODING BLOG BEBA<span>✨</span></h1>
+    <h1 style={{ display: `block`, fontSize: `2.0rem`, lineHeight: '3.5rem', marginTop:`2rem` }}><span> 👋</span> Hey, I'm Beba.
+I'm here to learn to be a better web developer.
+I'm passionate about HTML, CSS and JavaScript.
+
+If you like please take a tour here and  maybe you can find something interesting thanks!!</h1>
 
      
        <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="Nature" />     
-       <p className= { indexStyles.natureTitle }>{data.site.siteMetadata.title}✨</p>
+      
        <div className= {indexStyles.cardContainer}>
 
        <Link 
               to="/">
 <div className= { indexStyles.postCard }>card 1</div></Link>
 
-<div className= { indexStyles.postCard }>card 2</div>
-<div className= { indexStyles.postCard }>card 3</div>
-<div className= { indexStyles.postCard }>card 4</div>
-<div className= { indexStyles.postCard }>card 5</div>
-<div className= { indexStyles.postCard }>card 6</div>
+
        </div>
    </Layout>
   )

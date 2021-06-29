@@ -18,8 +18,10 @@
   list-style: none;
   width: 100%;
   position: relative;
-  top: -60px;
+  top: 0px;
   font-size: 2rem;
+margin-top: 3rem;
+margin-bottom: 3rem;
 }
 
 @media (max-width: 1070px) {
