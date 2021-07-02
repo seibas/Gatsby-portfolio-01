@@ -20,7 +20,7 @@ If you like please take a tour here and  maybe you can find something interestin
 
      
        <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="Nature" />     
-      
+  
        <div className= {indexStyles.cardContainer}>
 
        <Link 
