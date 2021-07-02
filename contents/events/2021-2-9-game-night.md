@@ -2,6 +2,7 @@
 date: "2021-02-09"
 title: "Game Night at the Lodge: Scythe"
 category: "game night"
+banner: "./panorama.jpg"
 ---
 
 **Game Night: Thor**
