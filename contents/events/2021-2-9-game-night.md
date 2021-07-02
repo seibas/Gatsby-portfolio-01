@@ -1,11 +1,11 @@
 ---
 date: "2021-02-09"
 title: "Game Night at the Lodge: Scythe"
-category: "game night"
-banner: "./panorama.jpg"
+category: "GitHub"
+banner: "./Artboard-2.png"
 ---
 
-**Game Night: Thor**
+**Let's try to learn GitHub together!**
 
 
 Join as at lodge to learn moore about the new game "Thor".
