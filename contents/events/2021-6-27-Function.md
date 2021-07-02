@@ -14,6 +14,8 @@ Functions are one of the fundamental building blocks in JavaScript. A function i
 
 
 ```
+Example:
+
 var add2 = function(number) {
   return number + 2;
 }
