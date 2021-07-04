@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 
 
-const LayouContacts = styled.div`
+const LayoutContacts = styled.div`
 background: rgb(255,133,65);
 background: radial-gradient(circle, rgba(255,133,65,1) 0%, rgba(66,66,66,0.8014529885063941) 100%);
 
@@ -25,7 +25,7 @@ justify-content:center;
 function contact() {
     return (
         
-        <LayouContacts>
+        <LayoutContacts>
             <h1>contact page</h1>  <h1>Thank you for contacting</h1>
             <form style={{display: 'flex', flexDirection:'column', width:'30rem', margin:'auto', padding:'1rem'}} name="contact"
             method="post"
@@ -33,14 +33,16 @@ function contact() {
             data-netlify-honeypot="bot-field"
             >
                 <input name="name" placeholder="Your Name" type="text" />
-                <input name="email" placeholder="name@name.com" type="email" />
+                <p>
+    <label>Your Email: <input type="email" name="email" /></label>
+  </p>
                 <textarea name="message" id="" cols="30" rows="10"></textarea>
                 <button><a href="/">SEND</a></button>
                 </form>
               
 
 
-        </LayouContacts>
+        </LayoutContacts>
     )
 }
 
