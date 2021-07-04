@@ -49,7 +49,7 @@ path:`${__dirname}/contents/events/`,
           {
             resolve: `gatsby-remark-images`,
             options: {
-              maxWidth: 400,
+              maxWidth: 500,
             }
           }
         ]

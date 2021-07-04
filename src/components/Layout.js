@@ -109,7 +109,7 @@ const MobileMenu = styled.nav`
 `
 
 const ListLink = props => (
-  <li style={{ display: `inline-block`, marginRight: `1rem` }}>
+  <li style={{ display: `inline-block`, marginRight: `1.5rem` }}>
     <Link to={props.to}>{props.children}</Link>
   </li>
 )
