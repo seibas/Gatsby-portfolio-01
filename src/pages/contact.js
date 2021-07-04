@@ -5,7 +5,7 @@ import styled from "styled-components";
 
 
 
-const LayoutContacts = styled.div`
+const LayouContacts = styled.div`
 background: rgb(255,133,65);
 background: radial-gradient(circle, rgba(255,133,65,1) 0%, rgba(66,66,66,0.8014529885063941) 100%);
 
@@ -33,9 +33,7 @@ function contact() {
             data-netlify-honeypot="bot-field"
             >
                 <input name="name" placeholder="Your Name" type="text" />
-                <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
+                <input name="email" placeholder="name@name.com" type="email" />
                 <textarea name="message" id="" cols="30" rows="10"></textarea>
                 <button><a href="/">SEND</a></button>
                 </form>
