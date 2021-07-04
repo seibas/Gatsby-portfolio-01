@@ -15,7 +15,7 @@ export default ({ data: { mdx } }) => {
     {mdx.frontmatter.banner && (
        <BannerImageFluid fluid={mdx.frontmatter.banner.childImageSharp.fluid }alt="Banner Image" />)}
      <div className={ eventStyles.eventContainer }>
-      <h1 style={{marginBottom: `2.5rem`, fontSize:`2.5rem`}}> {mdx.frontmatter.title} </h1>
+      <h1 style={{marginBottom: `2.5rem`, fontSize:`2.7rem`}}> {mdx.frontmatter.title} </h1>
       <h3> {mdx.frontmatter.date}</h3>
       <h4 style={{ display: `block`, marginBottom: `3rem` }}>Category: {mdx.frontmatter.category}</h4>
         
