@@ -27,26 +27,16 @@ function contact() {
         
         <LayoutContacts>
             <h1>contact page</h1>  <h1>Thank you for contacting</h1>
-            <form name="contact" method="POST" data-netlify="true">
-  <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
-  </p>
-  <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-  <p>
-    <label>Your Role: <select name="role[]" multiple>
-      <option value="leader">Leader</option>
-      <option value="follower">Follower</option>
-    </select></label>
-  </p>
-  <p>
-    <label>Message: <textarea name="message"></textarea></label>
-  </p>
-  <p>
-    <button type="submit">Send</button>
-  </p>
-</form>
+            <form style={{display: 'flex', flexDirection:'column', width:'30rem', margin:'auto', padding:'1rem'}} name="contact"
+            method="post"
+            data-netlify="true"
+            data-netlify-honeypot="bot-field"
+            >
+                <input name="name" placeholder="Your Name" type="text" />
+                <input name="email" placeholder="name@name.com" type="email" />
+                <textarea name="message" id="" cols="30" rows="10"></textarea>
+                <button><a href="/">SEND</a></button>
+                </form>
               
 
 
