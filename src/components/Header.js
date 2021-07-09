@@ -14,7 +14,11 @@ justify-content:left;
 right:30rem;
 position:relative;
 
-
+@media (max-width: 1070px) {
+   
+    display: none;
+  
+}
 `
 const Header = () => {
 
