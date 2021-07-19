@@ -20,14 +20,7 @@ module.exports = {
   
   /* Your site config here */
   plugins: [
-    {
-      resolve: `gatsby-source-datocms`,
-      options: {
-        apiToken: `YOUR_READONLY_API_TOKEN`,
-        preview: false,
-        disableLiveReload: false,
-      },
-    },
+   
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
