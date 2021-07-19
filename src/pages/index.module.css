@@ -24,7 +24,7 @@
   overflow: hidden;
   justify-content: center;
   align-items: center;
-  min-height: 10rem;
+  min-height: 1.5rem;
 
   box-shadow:  var(--color-main) 0px 0.2em, var(--color-main) 0px -0.2em, var(--color-main) 0.2em 0px, var(--color-main) -0.2em 0px;
   
@@ -40,3 +40,5 @@
     grid-template-columns: 1fr;
   }
 }
+
+

@@ -20,12 +20,12 @@ If you like please take a tour here and  maybe you can find something interestin
 
      
        <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="Nature" />     
-  
+     
        <div className= {indexStyles.cardContainer}>
 
        <Link 
-              to="/">
-<div className= { indexStyles.postCard }>card 1</div></Link>
+              to="https://codepen.io/Seibas/full/moPomL">
+<div className= { indexStyles.postCard }><p>How to create Digital Clock with CSS and JavaScript</p></div></Link>
 
 
        </div>
