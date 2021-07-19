@@ -26,8 +26,8 @@
   align-items: center;
   min-height: 10rem;
 
-  box-shadow: 0 0 5px #ccc;
-  border: 1px solid rgb(0, 0, 0);
+  box-shadow:  var(--color-main) 0px 0.2em, var(--color-main) 0px -0.2em, var(--color-main) 0.2em 0px, var(--color-main) -0.2em 0px;
+  
 
   background-position: center;
   background-repeat: no-repeat;
