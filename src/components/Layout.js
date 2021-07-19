@@ -129,27 +129,33 @@ export default function Layout({ children }) {
             <div className={'thirdLine'}></div>
           </MenuIcon>
 
-          <MobileMenu nav={nav}>
+          <MobileMenu  nav={nav}>
             <ul>
-              <li>
+
+              <li style={{  lineHeight:`1.0`}}>
                 <Link to="/">Home</Link>
               </li>
-              <li>
+
+              <li style={{  lineHeight:`1.0`}}>
                 <Link to="/about">About</Link>
               </li>
-              <li>
+
+              <li style={{  lineHeight:`1.0`}}>
                 <Link to="/contact">Contact</Link>
               </li>
-              <li>
+
+              <li style={{  lineHeight:`1.0`}}>
                 <Link to="/thingtodo">Todo</Link>
-                <li>
+                </li>
+
+                  <li style={{ lineHeight:`1.0`}}>
                 <Link to="/blog">Blog</Link>
               </li>
-              </li>
-              
             </ul>
+              </MobileMenu> 
             
-          </MobileMenu> 
+            
+          
           
       
 
