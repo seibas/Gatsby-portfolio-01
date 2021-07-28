@@ -21,18 +21,31 @@ function contact() {
   return (
     <LayoutContacts>
       <h1>contact page</h1> <h1>Thank you for contacting</h1>
-      <form style={{display: 'flex', flexDirection:'column', width:'30rem', margin:'auto', padding:'1rem'}} name="contact"
-            method="post"
-            data-netlify="true"
-            data-netlify-honeypot="bot-field"
-            >
-                <input name="name" placeholder="Your Name" type="text" />
-                <p>
-    <label>Your Email: <input type="email" name="email" /></label>
-  </p>
-                <textarea name="message" id="" cols="30" rows="10"></textarea>
-                <button><a href="/">SEND</a></button>
-                </form>
+      <form
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          width: "30rem",
+          margin: "auto",
+          padding: "1rem",
+        }}
+        name="contact"
+        method="post"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
+      >
+        <input type="hidden" name="form-name" value="contact" />
+        <input name="name" placeholder="Your Name" type="text" />
+        <p>
+          <label>
+            Your Email: <input type="email" name="email" />
+          </label>
+        </p>
+        <textarea name="message" id="" cols="30" rows="10"></textarea>
+        <button>
+          <a href="/">SEND</a>
+        </button>
+      </form>
     </LayoutContacts>
   )
 }
