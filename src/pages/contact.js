@@ -38,7 +38,7 @@ function contact() {
        
         <p>
           <label>
-        <input name="name" placeholder="Your Name" type="text" />
+          Your Name: <input name="name"  type="text" />
           </label>
         </p>
         <p>
