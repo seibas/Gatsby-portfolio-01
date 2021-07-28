@@ -12,6 +12,9 @@ module.exports = {
     author: "Sebastiano Vitturi",
     year: 2021,
     image: 'images/nature.jpg',
+    disqus     : {
+      shortName: 'your-disqus-short-name',
+    },
   },
 
 
