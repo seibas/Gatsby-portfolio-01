@@ -36,13 +36,11 @@ function contact() {
       >
 
        
+     
         <p>
           <label>
-          Your Names: <input name="name"  type="text" />
+            Your Email: <input type="email" name="email" />
           </label>
-        </p>
-        <p>
-         
         </p>
         <textarea name="message" id="" cols="30" rows="10"></textarea>
         <button>
