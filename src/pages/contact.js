@@ -42,9 +42,7 @@ function contact() {
           </label>
         </p>
         <p>
-          <label>
-            Your Email: <input type="email" name="email" />
-          </label>
+         
         </p>
         <textarea name="message" id="" cols="30" rows="10"></textarea>
         <button>
