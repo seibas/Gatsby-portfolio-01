@@ -3,3 +3,10 @@
     flex-direction: column;
     background-color:aqua;
 }
+.form{
+    width: 10px;
+}
+.mail{
+    width: 10px;
+    background-color:red;
+}
