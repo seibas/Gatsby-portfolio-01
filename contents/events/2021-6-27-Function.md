@@ -2,7 +2,7 @@
 date: "2021-06-27"
 title: "Javascript functions"
 category: "Javascript"
-banner: "./panorama.jpg"
+banner: "./arrowfunction.jpeg"
 ---
 
 
