@@ -11,17 +11,16 @@
 .navContainer {
   display: flex;
   flex-wrap: wrap;
-  -webkit-box-pack: center;
+
   justify-content: center;
   margin-right: auto;
-  margin-left: auto;
-  list-style: none;
+ 
   width: 100%;
   position: relative;
   top: 0px;
   font-size: 2rem;
-margin-top: 3rem;
-margin-bottom: 3rem;
+
+
 }
 
 @media (max-width: 1070px) {
@@ -58,7 +57,10 @@ margin-bottom: 3rem;
 .logo {
   font-weight: bold;
   color: rgb(201, 31, 31);
-
+  background-image: url("/src/image/bebas.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: contain;
 }
 html{
   margin-top: 0;
