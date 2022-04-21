@@ -41,7 +41,7 @@ function contact() {
         </p>
         <textarea name="message" id="" cols="30" rows="10"></textarea>
         <button>
-          <a href="/">SEND</a>
+          <a href="/">Send Message</a>
         </button>
       </form>
     </LayoutContacts>
