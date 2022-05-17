@@ -8,7 +8,7 @@ import BannerImageFluid from "../components/BannerFluid"
 
 const about = ({ data }) => {
     return (
-     
+    //  /*  */
         <Layout>
           
             <h1>About</h1>
