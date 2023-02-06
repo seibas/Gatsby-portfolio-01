@@ -12,12 +12,7 @@ const index = ({ data }) => {
     
     <Layout>
       
-    <h1 style={{ display: `block`, fontSize: `2.0rem`, lineHeight: '3.5rem', marginTop:`2rem` }}><span> 👋</span> Hey, I'm Beba.
-I'm here to learn to be a better web developer.
-I'm passionate about HTML, CSS and JavaScript.
-
-If you like please take a tour here and  maybe you can find something interesting thanks!!</h1>
-
+    <h1 style={{ display: `block`, fontSize: `2.0rem`, lineHeight: '3.5rem', marginTop:`2rem` }}><span> 👋</span> Hello, I am a web developer with a passion for creating intuitive, engaging, and accessible websites. With experience in HTML, CSS, JavaScript, and several frameworks and libraries, I am equipped to develop and maintain dynamic and responsive web applications. My goal is to deliver exceptional user experiences and help businesses establish a strong online presence. Let's work together to bring your vision to life.
      
        <BannerImageFluid fluid={data.file.childImageSharp.fluid} alt="Nature" />     
      
