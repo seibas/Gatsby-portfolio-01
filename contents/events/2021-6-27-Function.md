@@ -8,15 +8,11 @@ banner: "./arrowfunction.jpeg"
 
 
 
-A  JavaScript function is a block of code designed to perform a particular task.
-
-Functions are one of the fundamental building blocks in JavaScript. A function in JavaScript is similar to a procedure—a set of statements that performs a task or calculates a value, but for a procedure to qualify as a function, it should take some input and return an output where there is some obvious relationship between the input and the output. To use a function, you must define it somewhere in the scope from which you wish to call it.
-
-
-```
-Example:
-
-var add2 = function(number) {
-  return number + 2;
+A JavaScript function is a block of code designed to perform a specific task. Functions are executed when they are called. They can accept parameters (inputs), and can return a value (output). Functions can be reused multiple times in a program, making the code more organized and maintainable. Functions are declared using the "function" keyword followed by the function name and a set of parentheses that may include parameters. The code to be executed is placed inside curly braces "{}". An example is:
+...
+javascript
+Copy code
+function greet(name) {
+  return "Hello, " + name + "!";
 }
-```
+...
