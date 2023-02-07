@@ -1,12 +1,15 @@
 ---
-date: "2021-02-11"
-title: "Game Night third"
-category: "game night"
+date: "2023-02-08"
+title: "what is study Gatsbyjs"
+category: "Talk"
 banner: "./panorama.jpg"
 ---
 
-**Game Night: Thor**
+**Gatsby js: talk**
 
 
-Join as at lodge to learn moore about the new game "Thor".
-Don't worry bring your friends with you .
+Studying Gatsby JS is like embarking on a wild adventure in the world of web development! Think of it as a treasure hunt where you get to search for the most optimized, user-friendly and lightning-fast websites, and Gatsby JS is your map to help you get there.
+
+You'll be wowing your friends and coworkers with your knowledge of the latest and greatest in front-end development, like static site generation, React, GraphQL, and more. Plus, you'll have the skills to create beautiful and performant websites that are sure to leave an impression.
+
+So grab your compass, put on your web developer hat, and let's embark on the journey of learning Gatsby JS!
